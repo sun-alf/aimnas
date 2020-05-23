@@ -216,7 +216,7 @@
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
 		<InitialGarrisonPercentages>60</InitialGarrisonPercentages>
-		<MinEnemyGroupSize>4</MinEnemyGroupSize>
+		<MinEnemyGroupSize>6</MinEnemyGroupSize>
 		<CounterAttackGroupSize>12</CounterAttackGroupSize>
 		<PercentElitesBonus>0</PercentElitesBonus>
 		<UnlimitedPoolOfTroops>0</UnlimitedPoolOfTroops>
@@ -254,9 +254,9 @@
 		<UpdateLastDayOfPlayerActivity>1</UpdateLastDayOfPlayerActivity>
 		<ChanceOfEnemyAmbushes>5</ChanceOfEnemyAmbushes>
 		<AllowReinforcements>1</AllowReinforcements>
-		<AllowReinforcementsOmerta>1</AllowReinforcementsOmerta>
-		<PopulationLevel2>1</PopulationLevel2>
-		<PopulationLevel3>1</PopulationLevel3>
+		<AllowReinforcementsOmerta>0</AllowReinforcementsOmerta>
+		<PopulationLevel2>0</PopulationLevel2>
+		<PopulationLevel3>0</PopulationLevel3>
 		<!-- Weapon Cache Troops -->
 		<WeaponCacheTroops1>2</WeaponCacheTroops1>
 		<WeaponCacheTroops2>2</WeaponCacheTroops2>
@@ -266,7 +266,7 @@
 		<!-- Strategic Other -->
 		<UpgradeAdminsToTroops>0</UpgradeAdminsToTroops>
 		<UpgradeGarrisonsAdminsToTroops>0</UpgradeGarrisonsAdminsToTroops>
-		<AlwaysUpGradeAdminsToTroopsProgress>100</AlwaysUpGradeAdminsToTroopsProgress>
+		<AlwaysUpGradeAdminsToTroopsProgress>95</AlwaysUpGradeAdminsToTroopsProgress>
 		<LevelModifierLowLimit>0</LevelModifierLowLimit>
 		<LevelModifierHighLimit>0</LevelModifierHighLimit>
 		<AllowUnrestrictedXPLevels>0</AllowUnrestrictedXPLevels>
@@ -294,8 +294,8 @@
 		<StartingCash>50000</StartingCash>
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
-		<InitialGarrisonPercentages>85</InitialGarrisonPercentages>
-		<MinEnemyGroupSize>4</MinEnemyGroupSize>
+		<InitialGarrisonPercentages>90</InitialGarrisonPercentages>
+		<MinEnemyGroupSize>8</MinEnemyGroupSize>
 		<CounterAttackGroupSize>16</CounterAttackGroupSize>
 		<PercentElitesBonus>0</PercentElitesBonus>
 		<UnlimitedPoolOfTroops>0</UnlimitedPoolOfTroops>
@@ -374,7 +374,7 @@
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
 		<InitialGarrisonPercentages>110</InitialGarrisonPercentages>
-		<MinEnemyGroupSize>6</MinEnemyGroupSize>
+		<MinEnemyGroupSize>8</MinEnemyGroupSize>
 		<CounterAttackGroupSize>24</CounterAttackGroupSize>
 		<PercentElitesBonus>10</PercentElitesBonus>
 		<UnlimitedPoolOfTroops>0</UnlimitedPoolOfTroops>
@@ -382,7 +382,7 @@
 		<QueenPoolMaxSizePerDifficultyLevel>1500</QueenPoolMaxSizePerDifficultyLevel>
 		<QueenPoolIncrementPerDifficultyLevel>10</QueenPoolIncrementPerDifficultyLevel>
 		<QueenPoolIncrementDaysIntervalPerDifficultyLevel>3</QueenPoolIncrementDaysIntervalPerDifficultyLevel>
-		<EnemyStartingAlertLevel>5</EnemyStartingAlertLevel>
+		<EnemyStartingAlertLevel>10</EnemyStartingAlertLevel>
 		<EnemyAlertDecay>20</EnemyAlertDecay>
 		<NumAwareBattles>3</NumAwareBattles>
 		<BaseDelayInMinutesBetweenEvaluations>300</BaseDelayInMinutesBetweenEvaluations>
@@ -410,7 +410,7 @@
 		<!-- Strategic Other -->
 		<StrategicAiActionWakeQueen>0</StrategicAiActionWakeQueen>
 		<UpdateLastDayOfPlayerActivity>1</UpdateLastDayOfPlayerActivity>
-		<ChanceOfEnemyAmbushes>5</ChanceOfEnemyAmbushes>
+		<ChanceOfEnemyAmbushes>7</ChanceOfEnemyAmbushes>
 		<AllowReinforcements>1</AllowReinforcements>
 		<AllowReinforcementsOmerta>1</AllowReinforcementsOmerta>
 		<PopulationLevel2>1</PopulationLevel2>
@@ -453,7 +453,7 @@
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
 		<InitialGarrisonPercentages>110</InitialGarrisonPercentages>
-		<MinEnemyGroupSize>6</MinEnemyGroupSize>
+		<MinEnemyGroupSize>8</MinEnemyGroupSize>
 		<CounterAttackGroupSize>24</CounterAttackGroupSize>
 		<PercentElitesBonus>10</PercentElitesBonus>
 		<UnlimitedPoolOfTroops>0</UnlimitedPoolOfTroops>
@@ -461,7 +461,7 @@
 		<QueenPoolMaxSizePerDifficultyLevel>2000</QueenPoolMaxSizePerDifficultyLevel>
 		<QueenPoolIncrementPerDifficultyLevel>10</QueenPoolIncrementPerDifficultyLevel>
 		<QueenPoolIncrementDaysIntervalPerDifficultyLevel>2</QueenPoolIncrementDaysIntervalPerDifficultyLevel>
-		<EnemyStartingAlertLevel>5</EnemyStartingAlertLevel>
+		<EnemyStartingAlertLevel>10</EnemyStartingAlertLevel>
 		<EnemyAlertDecay>20</EnemyAlertDecay>
 		<NumAwareBattles>3</NumAwareBattles>
 		<BaseDelayInMinutesBetweenEvaluations>300</BaseDelayInMinutesBetweenEvaluations>
@@ -489,7 +489,7 @@
 		<!-- Strategic Other -->
 		<StrategicAiActionWakeQueen>1</StrategicAiActionWakeQueen>
 		<UpdateLastDayOfPlayerActivity>1</UpdateLastDayOfPlayerActivity>
-		<ChanceOfEnemyAmbushes>5</ChanceOfEnemyAmbushes>
+		<ChanceOfEnemyAmbushes>7</ChanceOfEnemyAmbushes>
 		<AllowReinforcements>1</AllowReinforcements>
 		<AllowReinforcementsOmerta>1</AllowReinforcementsOmerta>
 		<PopulationLevel2>1</PopulationLevel2>
