@@ -20,13 +20,17 @@
 		MinEnemyGroupSize : Minimum enemy group size. Enemy groups will never be smaller than this!
 		CounterAttackGroupSize : Counter attacks on cities consist of 4 groups of this size.
 		PercentElitesBonus : Percent of troops converted to extra elites in enemy groups
-		UnlimitedPoolOfTroops : 0 - false, 1 - true. Determines whether or not the queen has unlimited troops. If she does, the following settings are ignored: QueenPoolMaxSizePerDifficultyLevel, QueenPoolIncrementDaysPerDifficultyLevel, QueenPoolBaseIncrementSizePerDifficultyLevel, QueenPoolRecruitPercentPerDifficultyLevel.
+		UnlimitedPoolOfTroops : 0 - false, 1 - true. Determines whether or not the queen has unlimited troops. If she does, the following settings are ignored: QueenPoolMaxSizePerDifficultyLevel, 
+		                        QueenPoolIncrementDaysPerDifficultyLevel, QueenPoolBaseIncrementSizePerDifficultyLevel, QueenPoolRecruitPercentPerDifficultyLevel.
 		QueensInitialPoolOfTroops : Amount of troops available to the queen at game start; part of troops is issued for garrisons and patrols, the rest is in Reserve. Valid range is 0 .. ~2 billion.
-		QueenPoolMaxSizePerDifficultyLevel : Amount of troops in Reserve may increase during the game as Queen train more soldiers continuously, this value is the max size of Reserve the Queen can have. Valid range is 0 .. ~2 billion.
+		QueenPoolMaxSizePerDifficultyLevel : Amount of troops in Reserve may increase during the game as Queen train more soldiers continuously, this value is the max size of Reserve the Queen can have.
+                                     		 Valid range is 0 .. ~2 billion.
 		QueenPoolIncrementDaysPerDifficultyLevel : Interval in days for training of a new recruit group. Valid values are:
-				0 - use old simple schema (increment by QueenPoolBaseIncrementSizePerDifficultyLevel value if reserves are dropped below this value; Strategic AI goes sleep for a while in case of increment happened); QueenPoolMaxSizePerDifficultyLevel, QueenPoolRecruitPercentPerDifficultyLevel are ignored.
+				0 - use old simple schema (increment by QueenPoolBaseIncrementSizePerDifficultyLevel value if reserves are dropped below this value; Strategic AI goes sleep for a while in case of increment 
+				    happened); QueenPoolMaxSizePerDifficultyLevel, QueenPoolRecruitPercentPerDifficultyLevel are ignored.
 				1 .. 65535.
-		QueenPoolBaseIncrementSizePerDifficultyLevel : It is amount of recruits which can be trained on training camp at a time. Basically, it is capacity of one training camp (Meduna), the same capacity provides the second camp (Alma). AI tries to fullfil all available training capacity each day. Valid range is 0 .. ~2 billion; don't play with big numbers here, or you may face overflow problems otherwise.
+		QueenPoolBaseIncrementSizePerDifficultyLevel : It is amount of recruits which can be trained on training camp at a time. Basically, it is capacity of one training camp (Meduna), the same capacity
+                                                       provides the second camp (Alma). AI tries to fulfill all available training capacity each day. Valid range is 0 .. ~2 billion; don't play with big numbers here, or you may face overflow problems otherwise.
 		QueenPoolRecruitPercentPerDifficultyLevel: Percent of a sector population the Army takes as recruits each day.
 		EnemyStartingAlertLevel : Sets the starting alert chances.
 		EnemyAlertDecay : When an enemy spots and chases a player group, the alertness value decrements by this value. Ranges from 1-100 (but recommend 20-60).
