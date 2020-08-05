@@ -1,8 +1,8 @@
 # BRAINMOD
 
 Basically, it is AIMNAS mod tuned up to have more realistic game experience.
-I had no idea on how to call this modding work, so I named it BRAINMOD which stands for "Basic Realism Adjustments Is Not a MOD".
-Please look for all reference information about AIMNAS in README.md of "core" branch.
+I had no idea on how to call this modding work, so I named it BRAINMOD what stands for "Basic Realism Adjustments Is Not a MOD".
+Executable files are included. Please look for all reference information about AIMNAS in README.md of "core" branch.
 
 #### Contents
 This MOD includes all updates and bug fixes from "core" branch.
@@ -12,6 +12,7 @@ Key features are:
 * Effects of bulletdrop are perceptible now.
 * You cannot repair non-repairable items like helmets and bulletproof vests.
 * Settings of difficulty levels are adjusted so that random numbers will not make you frustrating anymore. The more difficult game mode is chosen, the more tight, tough and smart Queen's Army becomes.
+* Queen's Army garrisons and patrols a revisited across the whole Arulco. Roads are patrolled, military and important objects are defended, while majority of town sectors are covered by police forces.
 * Game starts during a night (4 AM), when most of Omerta guards are probably asleep, and this gives additional coverage of initial Landing Zone.
 * Food system, diseases, Arulco Special Division and other Strategic Features are enabled and adjusted.
 * You will never see zombies or Crepitus (Creatures) in this game.

@@ -223,7 +223,7 @@
 		<StartingCash>100000</StartingCash>
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
-		<InitialGarrisonPercentages>60</InitialGarrisonPercentages>
+		<InitialGarrisonPercentages>75</InitialGarrisonPercentages>
 		<MinEnemyGroupSize>4</MinEnemyGroupSize>
 		<CounterAttackGroupSize>12</CounterAttackGroupSize>
 		<PercentElitesBonus>0</PercentElitesBonus>
@@ -303,7 +303,7 @@
 		<StartingCash>50000</StartingCash>
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
-		<InitialGarrisonPercentages>85</InitialGarrisonPercentages>
+		<InitialGarrisonPercentages>100</InitialGarrisonPercentages>
 		<MinEnemyGroupSize>6</MinEnemyGroupSize>
 		<CounterAttackGroupSize>16</CounterAttackGroupSize>
 		<PercentElitesBonus>0</PercentElitesBonus>
@@ -383,7 +383,7 @@
 		<StartingCash>35000</StartingCash>
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
-		<InitialGarrisonPercentages>110</InitialGarrisonPercentages>
+		<InitialGarrisonPercentages>120</InitialGarrisonPercentages>
 		<MinEnemyGroupSize>8</MinEnemyGroupSize>
 		<CounterAttackGroupSize>24</CounterAttackGroupSize>
 		<PercentElitesBonus>10</PercentElitesBonus>
@@ -463,7 +463,7 @@
 		<StartingCash>35000</StartingCash>
 		<EnemyAPBonus>0</EnemyAPBonus>
 		<NumKillsPerProgressPoint>10</NumKillsPerProgressPoint>
-		<InitialGarrisonPercentages>110</InitialGarrisonPercentages>
+		<InitialGarrisonPercentages>120</InitialGarrisonPercentages>
 		<MinEnemyGroupSize>8</MinEnemyGroupSize>
 		<CounterAttackGroupSize>24</CounterAttackGroupSize>
 		<PercentElitesBonus>10</PercentElitesBonus>
